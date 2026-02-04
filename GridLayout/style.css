@@ -1,0 +1,30 @@
+#container{
+    display:grid;
+    grid-template-rows: repeat(12,1fr); 
+    grid-template-columns:repeat(12,1fr) ;
+    grid-gap:10px;
+}
+#container>div{
+    background-color: pink;
+}
+.A{
+    grid-column: 1/span 12;
+}
+.B{
+    grid-column: 1/span 3;
+    grid-row: 2/span 10;
+}
+.C{
+    grid-column: 4/span 6;
+}
+.D{
+    grid-column: 10/span 3;
+    grid-row: 2/span 10;
+}
+.E{
+    grid-column: 4/span 6;
+    grid-row: 3/span 9;
+}
+.F{
+    grid-column: 1/span 12;
+}
